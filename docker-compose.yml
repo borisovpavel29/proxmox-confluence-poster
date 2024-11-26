@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  proxmox-confluence-poster:
+    container_name: proxmox-confluence-poster
+    build: ./proxmox-confluence-poster
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

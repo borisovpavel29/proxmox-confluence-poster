@@ -1,0 +1,9 @@
+proxmox:
+  url: 'proxmox_url_value' # Proxmox URL
+  token_id: 'proxmox_token_id_value'   # Proxmox token ID
+  token_secret: 'proxmox_token_secret_value'  # Proxmox token secret
+
+confluence:
+  url: 'confluence_url_value' # Confluence URL
+  token: 'confluence_token_value'  # Confluence token
+  page_id: 'confluence_page_id_value' # Confluence page id

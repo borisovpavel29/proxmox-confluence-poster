@@ -1,0 +1,4 @@
+PyYAML
+pyyaml
+requests
+atlassian-python-api
